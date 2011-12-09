@@ -30,6 +30,9 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
+# replace irb with pry
+gem 'pry-rails', :group => :development
+
 group :test do
   # Pretty printed test output
   gem 'turn', '0.8.2', :require => false
